@@ -1,0 +1,210 @@
+/* ================================== APP (global style) ================================== */
+
+:root {
+  /* === body var === */
+
+  --body-mt: 4.5rem;
+
+  /* === Color === */
+
+  --main-color: #fff;
+  --secondary-color: hsl(0, 0%, 96%);
+  --third-color: #8a8a8a;
+
+  --main-color-txt: #13122e;
+  --main-color-txt-hover: hsl(242, 44%, 20%);
+  --secondary-color-txt: #898898;
+
+  --danger-color: #ff0e0e;
+
+  /* === fonts === */
+
+  --serif-font: "Cinzel", serif;
+  --sans-serif-font: "Work Sans", sans-serif;
+
+  /* === Images === */
+
+  --size-photo: 500px;
+}
+
+/* ================================== REST CSS ================================== */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+
+li {
+  list-style-type: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+input {
+  outline: none;
+  cursor: pointer;
+}
+
+textarea {
+  resize: none;
+  outline: none;
+  cursor: pointer;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* ================================== MEDIA QUERIES ================================== */
+
+@media screen and (max-width: 1024px) {
+  :root {
+    --size-photo: 400px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  :root {
+    --body-mt: 4rem;
+    --size-photo: 300px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  :root {
+    --body-mt: 3.25rem;
+    --size-photo: 240px;
+  }
+}
